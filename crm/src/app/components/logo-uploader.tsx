@@ -9,9 +9,9 @@ export interface LogoUploaderProps
 }
 
 export default function LogoUploader({
+  id,
   label,
   placeholder,
-  id,
   ...rest
 }: LogoUploaderProps) {
   return (
