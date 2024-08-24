@@ -12,7 +12,9 @@ export default function CompanyFormModal({
   onSubmit,
   ...rest
 }: CompanyFormModalProps) {
-  <Modal {...rest}>
-    <CompanyForm onSubmit={onSubmit} />
-  </Modal>;
+  return (
+    <Modal {...rest}>
+      <CompanyForm onSubmit={onSubmit} />
+    </Modal>
+  );
 }
